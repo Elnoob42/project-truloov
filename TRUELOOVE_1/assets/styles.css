@@ -57,3 +57,31 @@ background:#e8e8e8;
     background-color: #824ccf;
     color: #e8e8e8;
 }
+/* globales*/
+.bg-custompurple {
+    background-color: #824CCF;
+}
+/*section 1*/
+.section-styles {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Botón empecemos*/
+.btn-style {
+    background-color: transparent;
+    border: solid 2px #824CCF;
+    color: #824CCF;
+    font-size: 30px;
+    font-weight: 20px;
+    position: absolute;
+    transition: 2s;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.130em currentColor;
+    box-shadow: 0 0 0.50em currentColor;
+}
+.btn-style:hover {
+    background-color: #824CCF;
+    color: white;
+}
