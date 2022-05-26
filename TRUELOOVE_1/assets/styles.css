@@ -200,3 +200,98 @@ background:#e8e8e8;
     padding: 0.5rem;  
     
   }
+/* globales*/
+.bg-custompurple {
+    background-color: #824CCF;
+}
+/*section 1*/
+.section-styles {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Botón empecemos*/
+.btn-style {
+    background-color: transparent;
+    border: solid 2px #824CCF;
+    color: #824CCF;
+    font-size: 30px;
+    font-weight: 20px;
+    position: absolute;
+    transition: 2s;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.130em currentColor;
+    box-shadow: 0 0 0.50em currentColor;
+}
+.btn-style:hover {
+    background-color: #824CCF;
+    color: white;
+}
+/* styles jose*/
+.card{
+    border-radius: 10px;
+    width: 18rem;
+    overflow: hidden;
+    margin: 1.5rem;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition: all 300ms;
+    box-shadow: 0px 0px 15px 10px #a0a0a0;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: all 500ms;
+    height: 465px;
+}
+
+.card-title, .card-text, .price{
+    margin-bottom: 1rem;
+}
+
+.card-body{
+    color: white;
+    padding: 1rem;
+    padding-top: 11rem;
+    position: absolute;
+    height: 467px;
+    background: linear-gradient(360deg, #842ccf, #8bb2eb ,transparent);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms;
+}
+
+
+.card:hover > img{
+    transform: scale(1.1);
+}
+
+.card:hover > .card-body {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-title{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-end{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
