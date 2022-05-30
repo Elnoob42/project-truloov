@@ -1,74 +1,22 @@
 body {
-    /*background-image: url(/My_class_projects/Assets/Images/images.jpg);
+    /*
+    background: linear-gradient(rgba(142, 142, 142, 0.7), rgba(142, 142, 142, 0.7)), url(/My_class_projects/Project-Truloov/Assets/Images/16125250911786.jpg) no-repeat center left !important;background: linear-gradient(#e6e6e6, #842ccf) !important;
+    background-image: url(/My_class_projects/Assets/Images/images.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;*/
-    background: linear-gradient(#e6e6e6, #842ccf) !important;
-    color: #8e8e8e !important;
+    background-position: center;
+    background: url(/My_class_projects/Project-Truloov/Assets/Images/16125250911786.jpg) center left no-repeat;
+    color: rgb(142, 142, 142) !important;
+    background-image: url(/My_class_projects/Project-Truloov/Assets/Images/pexels-photo-3620913.jpeg) !important;*/
     text-align: center;
-}
-
-
-form {
-    /*background: linear-gradient(#8BB2EB, #842ccf) !important;
-    background-color: #E8E8E8;*/
-    background-image: url(/My_class_projects/Assets/Images/16125250911786.jpg);
-    max-width: 500px;
-    
-    margin: 50px auto;
-    padding: 30px 20px;
-    font-weight: bolder;
-    
-}
-
-
-.form-control {
-    text-align: left;
-    margin-bottom: 25px;
-}
-
-
-.form-control label {
-    margin-bottom: 10px;
-}
-
-
-.form-control input,
-.form-control select,
-.form-control textarea,
-.form-type {
-    border: 1px solid #777;
-    border-radius: 2px;
-    font-family: inherit;
-    padding: 10px;
-    display: block;
-    width: 95%;
-}
-
-.form-control input[type="radio"],
-.form-control input[type="checkbox"],
-.form-type {
-    display: inline-block;
-    width: auto;
-}
-
-
-.form-control input[type="radio"],
-.form-control input[type="checkbox"],
-.form-type  {
-    display: inline-block;
-    width: auto;
-}
-
-
-button {
-    background-color: #8BB2EB;
-	border: 1px solid #777;
-	border-radius: 2px;
-	font-family: inherit;
-	font-size: 21px;
-	display: block;
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 20px;
-	}
+    background: url(/My_class_projects/Project-Truloov/Assets/Images/pexels-photo-3620913.jpeg) !important;
+  }
+  
+  .image-form{
+    margin-top: 1.5rem;
+  }
+  
+  .boton:hover {
+    background: #a3d811 !important;
+  }
+  
