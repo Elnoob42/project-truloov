@@ -38,107 +38,51 @@
 
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav me-4 d-flex justify-content-end">
-          <li class="nav-item dropdown ms-3">
+          <li class="nav-item link ms-3">
             <a
               class="nav-link fs-5"
-              href="#"
-              id="navbarDropdownMenuLink"
+              href="#atributos"
+              id=""
               role="button"
-              data-bs-toggle="dropdown"
+              data-bs-toggle="link"
               aria-expanded="false"
             >
-              Servicios
+              Atributos
             </a>
-            <ul
-              class="dropdown-menu bg"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <li><a class="dropdown-item bg" href="#">Action</a></li>
-              <li><a class="dropdown-item bg" href="#">Another action</a></li>
-              <li>
-                <a class="dropdown-item bg" href="#">Something else here</a>
-              </li>
-            </ul>
           </li>
-          <li class="nav-item dropdown ms-3">
+          <li class="nav-item link ms-3">
             <a
               class="nav-link fs-5"
-              href="#"
-              id="navbarDropdownMenuLink"
+              href="#referencias"
+              id=""
               role="button"
-              data-bs-toggle="dropdown"
+              data-bs-toggle="link"
               aria-expanded="false"
             >
-              Nosotros
+              Referencias
             </a>
-            <ul
-              class="dropdown-menu bg"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <li><a class="dropdown-item bg" href="#">Action</a></li>
-              <li><a class="dropdown-item bg" href="#">Another action</a></li>
-              <li>
-                <a class="dropdown-item bg" href="#">Something else here</a>
-              </li>
-            </ul>
           </li>
-          <li class="nav-item dropdown ms-3">
+          <li class="nav-item link ms-3">
             <a
               class="nav-link fs-5"
-              href="#"
-              id="navbarDropdownMenuLink"
+              href="#contacto"
+              id=""
               role="button"
-              data-bs-toggle="dropdown"
+              data-bs-toggle="link"
               aria-expanded="false"
             >
-              Asistencia
+              Contacto
             </a>
-            <ul
-              class="dropdown-menu bg"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <li><a class="dropdown-item bg" href="#">Action</a></li>
-              <li><a class="dropdown-item bg" href="#">Another action</a></li>
-              <li>
-                <a class="dropdown-item bg" href="#">Something else here</a>
-              </li>
-            </ul>
           </li>
-          <li class="nav-item dropdown ms-3" style="width: 14rem">
-            <a
-              class="nav-link w-100 fs-5"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Preguntas Frecuentes
-            </a>
-            <ul
-              class="dropdown-menu bg"
-              aria-labelledby="navbarDropdownMenuLink"
-            >
-              <li><a class="dropdown-item bg" href="#">Action</a></li>
-              <li><a class="dropdown-item bg" href="#">Another action</a></li>
-              <li>
-                <a class="dropdown-item bg" href="#">Something else here</a>
-              </li>
-            </ul>
-
-            <!--ventana Emergente-->
-          </li>
-
+<!--ventana Emergente-->
           <li class="nav-item ms-3" style="width: 10rem">
             <div class="btn btn-primary fs-5">
-              <label for="btn-modal"> Iniciar Sesion </label>
+              <label for="btn-modal"> Iniciar sesión </label>
             </div>
             <input type="checkbox" id="btn-modal" />
             <div class="container-modal">
               <div class="content-modal">
                 <h2>Inicio Sesion</h2>
-          
-
                 <div class="mb-3 letra">
                   <label for="exampleInputUsuario" class="form-label"
                     >Usuario</label
@@ -180,7 +124,7 @@
 
     <!-- banner -->
     <section class="section-styles">
-      <div class="ratio ratio-16x9">
+      <div class="ratio ratio-16x9 mb-5">
         <video autoplay muted loop>
           <source src="./assets/img/video/video-final-truloov.mp4">
         </video>
@@ -188,11 +132,13 @@
       <a class="btn bg-custompurple btn-style m-5" href="Registro.html" role="button">Empecemos</a>
     </section>
     <!-- avisos -->
-    <section>
-      <div class="d-flex justify-content-center flex-wrap">
+    
+    <div id="atributos" class="container d-flex justify-content-center mt-5"> <h2>Atributos</h2> </div>
+    <section class="d-flex justify-content-center">
+      <div class="d-flex justify-content-around mt-5 mb-5 w-75 flex-wrap">
         <!-- <a href="https://www.flaticon.es/iconos-gratis/proteccion" title="proteccion iconos">Proteccion iconos creados por Freepik - Flaticon</a>
  -->
-        <div class="m-4" style="width: 15rem">
+        <div class="animado m-4" style="width: 15rem">
           <img
             src="assets/img/proteccion.png"
             alt=""
@@ -200,27 +146,12 @@
             class="p-4"
           />
           <p class="text-center fs-5">
-            La págian cuenta con botones de emergencia y localizador para que te
-            sientas seguro en todo momento.
-          </p>
-        </div>
-        <!--  <a href="https://www.flaticon.es/iconos-gratis/lista" title="lista iconos">Lista iconos creados por Icongeek26 - Flaticon</a>
--->
-        <div class="m-4" style="width: 15rem">
-          <img
-            src="assets/img/veri.png"
-            alt=""
-            style="width: 15rem"
-            class="p-4"
-          />
-          <p class="text-center fs-5">
-            Todas las cuentas son verificadas para evitar la suplantación de
-            identidad.
+            Solicitamos un requisito de confirmación de usuario con el fin de prevenir la suplantación de identidad
           </p>
         </div>
         <!-- <a href="https://www.flaticon.es/iconos-gratis/ciencia-de-los-datos" title="ciencia de los datos iconos">Ciencia de los datos iconos creados por Eucalyp - Flaticon</a>
  -->
-        <div class="m-4" style="width: 15rem">
+        <div class="animado m-4" style="width: 15rem">
           <img
             src="assets/img/analisis.png"
             alt=""
@@ -228,13 +159,11 @@
             class="p-4"
           />
           <p class="text-center fs-5">
-            Nuestro potente algoritmo fue desarrollado con base en el metodo
-            científico, lo que aumenta las posibilidades que tu y tu macth sean
-            compatibles.
+            Tenemos un sistema de compatibilidad que permite juntar personas con intereses en común
           </p>
         </div>
         <!-- <a href="https://www.flaticon.es/iconos-gratis/apoyo" title="apoyo iconos">Apoyo iconos creados por Freepik - Flaticon</a> -->
-        <div class="m-4" style="width: 15rem">
+        <div class="animado m-4" style="width: 15rem">
           <img
             src="assets/img/soporte-tecnico.png"
             alt=""
@@ -242,22 +171,22 @@
             class="p-4"
           />
           <p class="text-center fs-5">
-            Contamos con acesores las 24 horas del dia que te ayudaran con todas
-            tus inquietudes de forma instantanea.
+            Contamos con un servicio de mensajeria privado para que puedas conversar con los usuarios que te interesen
           </p>
         </div>
       </div>
     </section>
 
 
-    <!--testimonios-->
+    <!--Referencias-->
 
-    <section class="ms-4 text-center mt-5">
-      <h3 class="mb-3">Testimonios</h3>
+    <section id="referencias" class="container-slider testimonios text-center mt-5 mb-5">
+      <h3 class="mt-5 mb-5">Referencias</h3>
 
       
-      <div class="mb-5 d-flex flex-nowrap scroll-x">
-        <div class="card-container">
+      <div class="mb-5 d-flex flex-nowrap justify-content-start scroll-x slider" id="slider">
+        
+        <div class=" slider-section card-container">
           <div class="card" style="flex-shrink: 0">
             <img
               class="card-image"
@@ -275,9 +204,50 @@
             </div>
           </div>
         </div> 
+
+        <div class="slider-section card-container">
+          <div class="card" style="flex-shrink: 0">
+            <img
+              class="card-image"
+              src="./assets/img/pareja...jpg"
+              alt="imagen-de-producto"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Juan y Rosa</h4>
+              <p class="card-text">
+                Juan y yo hicimos match a principios de diciembre de 2016. Las primeras citas fueron divertidas y, 
+                a los 20 días de conocernos, él ya les había dicho todo sobre mí a sus padres, que viven en Dinamarca,
+                 y me invitaron al viaje que harían en verano. Nuestros amigos nos han dicho que somos la pareja perfecta, 
+                 pues difícilmente nos aburrimos. 
+              </p>
+            </div>
+          </div>
+        </div> 
+
+        <div class="slider-section card-container">
+          <div class="card" style="flex-shrink: 0">
+            <img
+              class="card-image"
+              src="./assets/img/pareja...jpg"
+              alt="imagen-de-producto"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Juan y Rosa</h4>
+              <p class="card-text">
+                Juan y yo hicimos match a principios de diciembre de 2016. Las primeras citas fueron divertidas y, 
+                a los 20 días de conocernos, él ya les había dicho todo sobre mí a sus padres, que viven en Dinamarca,
+                 y me invitaron al viaje que harían en verano. Nuestros amigos nos han dicho que somos la pareja perfecta, 
+                 pues difícilmente nos aburrimos. 
+              </p>
+            </div>
+          </div>
+        </div> 
+
+        
+        
          
 
-        <div class="card-container">
+        <div class="slider-section card-container">
           <div class="card" style="flex-shrink: 0">
             <img
               class="card-image"
@@ -296,7 +266,7 @@
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="slider-section card-container">
           <div class="card" style="flex-shrink: 0">
             <img
               class="card-image"
@@ -316,7 +286,7 @@
           </div>
         </div>
 
-        <div class="card-container">
+        <div class="slider-section card-container">
           <div class="card" style="flex-shrink: 0">
             <img
               class="card-image"
@@ -333,12 +303,52 @@
             </div>
           </div>
         </div>
+
+        <div class="slider-section card-container">
+          <div class="card" style="flex-shrink: 0">
+            <img
+              class="card-image"
+              src="./assets/img/chicas...webp"
+              alt="imagen-de-producto"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Ana y Victoria</h4>
+              <p class="card-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum temporibus eius, quidem aspernatur 
+               eligendi laboriosam unde sunt. Iste amet cumque illum similique assumenda deleniti nulla aperiam 
+               optio dolores? Repellat, magni! 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-section card-container">
+          <div class="card" style="flex-shrink: 0">
+            <img
+              class="card-image"
+              src="./assets/img/chicas...webp"
+              alt="imagen-de-producto"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Ana y Victoria</h4>
+              <p class="card-text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum temporibus eius, quidem aspernatur 
+               eligendi laboriosam unde sunt. Iste amet cumque illum similique assumenda deleniti nulla aperiam 
+               optio dolores? Repellat, magni! 
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="slider-btn slider-btn-right" id="btn-right">&#62;</div>
+      <div class="slider-btn slider-btn-left" id="btn-left">&#60;</div>
     </section>
 
     
     <!-- footer -->
-    <footer class="bg-secondary">
-      <div class="d-flex justify-content-start flex-wrap">
+    <footer id="contacto" class="bg-secondary pt-5">
+      <div class="d-flex justify-content-center flex-wrap">
         <div class="redes c2 d-flex m-4 w-75 flex-wrap justify-content-between">
           <div class="w-100">
             <h1>
@@ -369,7 +379,7 @@
             >
             <a href="#" class="text-decoration-none fs-5 nav-link">Terminos</a>
             <a href="#" class="text-decoration-none fs-5 nav-link"
-              >Politicas de seguridad</a
+              >Políticas de seguridad</a
             >
             <a href="#" class="text-decoration-none fs-5 nav-link">Cookies</a>
             <a href="#" class="text-decoration-none fs-5 nav-link"
@@ -385,14 +395,11 @@
           </div>
 
           <div class="mb-4" style="width: 15rem">
-            <a href="#" class="text-decoration-none fs-5 nav-link">Destinos</a>
+            <a href="#" class="text-decoration-none fs-5 nav-link"> <H4>CANALES</H4> </a>
             <a href="#" class="text-decoration-none fs-5 nav-link"
               >Sala de prensa</a
             >
             <a href="#" class="text-decoration-none fs-5 nav-link">PQRS</a>
-            <a href="#" class="text-decoration-none fs-5 nav-link"
-              >Código promocional</a
-            >
             <a href="#" class="text-decoration-none fs-5 nav-link">Contacto</a>
           </div>
         </div>
@@ -447,5 +454,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="animacion.js"></script>
   </body>
 </html>

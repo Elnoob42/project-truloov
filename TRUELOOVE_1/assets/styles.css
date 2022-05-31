@@ -295,3 +295,72 @@ background:#e8e8e8;
     justify-content: flex-end;
 }
 
+.testimonios{
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.scroll-x{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container-slider{
+  overflow: hidden;
+  width: 70%;
+  position: relative;
+}
+
+.slider{
+  width: 200%;
+  margin-left: -25%;
+}
+
+.slider-btn{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #8bb1ebad;
+  top: 55%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-btn:hover{
+  background: #8bb2eb;
+}
+
+.slider-btn-left{
+  left: 10px;
+}
+
+.slider-btn-right{
+  right: 10px;
+}
+
+.animado{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.mostrarArriba{
+  animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba{
+  0%{
+    transform: translateY(60px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
